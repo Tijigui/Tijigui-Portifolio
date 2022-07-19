@@ -1,0 +1,121 @@
+/* ?Fonte Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+/* ?Font Poppins */
+
+/* ?CSS Reset */
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ?CSS Reset */
+
+body {
+    background: #1D3557;
+}
+
+
+
+/* !DIV-01 */
+.div-01 {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    background: #457B95;
+    align-items: center;
+    position: fixed;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    padding: 20px;
+}
+
+.name h2 {
+    font-weight: 300;
+    font-size: 1.4em;
+    color: #fff;
+}
+
+.name .tag {
+    font-size: 2.7em;
+    color: #E63946;
+}
+
+.div-01 .cargo {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #1D3557;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+}
+
+
+.rede-contato {
+    font-size: 3.5em;
+    color: #E63946;
+    text-decoration: none;
+    align-items: center;
+}
+
+#icon-email {
+    font-size: 3em;
+}
+
+/* !DIV-01 */
+
+
+
+/* !DIV-02 */
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Navbar a {
+    font-weight: 700;
+    font-size: 2em;
+    margin-left: 20em;
+    margin: 2em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.div-02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-02 h1 {
+    width: 10em;
+    font-weight: 700;
+    font-size: 3em;
+    color: #fff;
+    align-items: center;
+}
+
+.div-02 p {
+    width: 23em;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: justify;
+    margin: 1em;
+}
+
+.img-div-02 {
+    width: 35em;
+    height: 35em;
+    padding: 10em;
+}
+
+/* !DIV-02 */
